@@ -48,8 +48,6 @@ function countEvenNumbers(arrayOfNumbers) {
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
     return arrayOfNumbers.map(celsiusNumber => {
-
-			const truncatedValue = Math.trunc(celsiusNumber)
 			
 			//to fahrenheit
 			const fahrenheitValue  = Math.trunc((celsiusNumber * (9/5)) + 32 )
